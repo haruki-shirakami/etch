@@ -1,0 +1,30 @@
+.grid-container{
+  margin: 1% auto;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-gap: 5px;
+}
+
+.grid-item{
+  width: 100%;
+  padding-top: 100%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+.hovered{
+  background-color: black;
+}
+
+h1{
+  margin-top: 2%;
+  text-align: center;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
